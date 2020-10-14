@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+  <types>
+      <members>Log__c</members>
+      <members>Log_Message__e</members>
+    <name>CustomObject</name>
+  </types>
+	<types>
+      <members>LogMessageHandler</members>
+      <members>LogMessageHandlerTest</members>
+      <members>LogMessageTriggerTest</members>
+      <members>LogUtil</members>
+      <members>LogUtilTest</members>
+		<name>ApexClass</name>
+	</types>
+	<types>
+		<members>LogMessageTrigger</members>
+		<name>ApexTrigger</name>
+	</types>
+	<types>
+    <members>Log__c</members>
+    <members>Logs_Monitoring</members>
+		<name>CustomTab</name>
+	</types>
+	<types>
+    <members>Log__c-Log Error Layout</members>
+    <members>Log__c-Log Info Layout</members>
+		<name>Layout</name>
+	</types>
+	<types>
+		<members>logTable</members>
+		<name>LightningComponentBundle</name>
+	</types>
+  <types>
+		<members>Logs_Monitoring</members>
+		<name>FlexiPage</name>
+	</types>
+	<version>49.0</version>
+</Package>
